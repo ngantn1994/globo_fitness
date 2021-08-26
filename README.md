@@ -21,3 +21,8 @@ The result project for the online course "Flutter: Getting Started" on pluralsig
 - Use Stateful Widget to display dynamic contents of the apps
 - Create a simple BMI Calculator
 
+### Day 3: Models & API calls
+
+- Go to pub.dev for packages & implemented http package for api calls
+- Used the openweathermap API for simple weather lookup on the new weather page
+
