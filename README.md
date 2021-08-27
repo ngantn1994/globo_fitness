@@ -26,3 +26,25 @@ The result project for the online course "Flutter: Getting Started" on pluralsig
 - Go to pub.dev for packages & implemented http package for api calls
 - Used the openweathermap API for simple weather lookup on the new weather page
 
+### Day 5: Shared Preferences & Dismissible
+
+- Uses shared_preferences to save simple training data
+- Uses new widgets to make a nice Data adding & swipe to delete page.
+
+## And that's concluded it!
+
+Home screen:
+![image](https://user-images.githubusercontent.com/16540751/131156132-49e1c35b-6110-4e7f-8c5d-6f91b5bc8142.png)
+
+Menu opened:
+![image](https://user-images.githubusercontent.com/16540751/131156197-f0c4cd3b-c9e3-48bf-b1d9-6e9101255a29.png)
+
+BMI calculator:
+![image](https://user-images.githubusercontent.com/16540751/131156307-ee8548ba-1e7c-49d8-9548-f604f477bfe2.png)
+
+The Weather page:
+![image](https://user-images.githubusercontent.com/16540751/131156362-8b0e66ae-ff30-4d33-836e-b081c6541672.png)
+
+Training session page:
+![image](https://user-images.githubusercontent.com/16540751/131156407-aa1b1a62-3cb1-435c-af3c-bb18e9512443.png)
+![image](https://user-images.githubusercontent.com/16540751/131156430-195935ac-f3a3-43cc-b0fc-e2f61668ae95.png)
