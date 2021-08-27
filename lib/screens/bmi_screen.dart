@@ -10,8 +10,8 @@ class BmiScreen extends StatefulWidget {
 }
 
 class _BmiScreenState extends State<BmiScreen> {
-  final TextEditingController txtHeight = new TextEditingController();
-  final TextEditingController txtWeight = new TextEditingController();
+  final TextEditingController txtHeight = TextEditingController();
+  final TextEditingController txtWeight = TextEditingController();
   final double fontSize = 18;
   String result = '';
   bool isMetric = true;

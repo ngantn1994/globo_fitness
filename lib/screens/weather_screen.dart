@@ -3,14 +3,14 @@ import 'package:globo_fitness/data/weather.dart';
 import '../data/http_helper.dart';
 
 class WeatherScreen extends StatefulWidget {
-  const WeatherScreen({ Key? key }) : super(key: key);
+  const WeatherScreen({Key? key}) : super(key: key);
 
   @override
   _WeatherScreenState createState() => _WeatherScreenState();
 }
 
 class _WeatherScreenState extends State<WeatherScreen> {
-final TextEditingController txtController = new TextEditingController();
+  final TextEditingController txtController = TextEditingController();
 
   Weather result = Weather('', '', 0, 0, 0, 0);
   @override
@@ -49,8 +49,7 @@ final TextEditingController txtController = new TextEditingController();
   Future getData() async {
     HttpHelper helper = HttpHelper();
     result = await helper.getWeather(txtController.text);
-    setState(() {  
-    });
+    setState(() {});
   }
 
   Widget weatherRow(String label, String value) {
@@ -60,7 +59,8 @@ final TextEditingController txtController = new TextEditingController();
         children: [
           Expanded(
             flex: 3,
-            child: Text(label,
+            child: Text(
+              label,
               style: TextStyle(
                 fontSize: 20,
                 color: Theme.of(context).hintColor,
@@ -69,7 +69,8 @@ final TextEditingController txtController = new TextEditingController();
           ),
           Expanded(
             flex: 4,
-            child: Text(value,
+            child: Text(
+              value,
               style: TextStyle(
                 fontSize: 20,
                 color: Theme.of(context).primaryColor,
